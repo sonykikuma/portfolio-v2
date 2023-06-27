@@ -11,25 +11,25 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Propert Finder"
-            backgroundImg="/../public/assets/projects/property.jpg"
-            projectUrl="/property"
+            title="Google Clone"
+            backgroundImg="/../public/assets/projects/google.png"
+            projectUrl="https://github.com/sonykikuma/google-clone"
           />
 
           <ProjectItem
             title="Crypto App"
-            backgroundImg="/../public/assets/projects/crypto.jpg"
-            projectUrl="/property"
+            backgroundImg="/../public/assets/projects/crypto.png"
+            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker"
           />
           <ProjectItem
-            title="Netflix"
-            backgroundImg="/../public/assets/projects/netflix.jpg"
-            projectUrl="/property"
+            title="IMDb"
+            backgroundImg="/../public/assets/projects/imdb.png"
+            projectUrl="https://github.com/sonykikuma/IMDb-clone"
           />
           <ProjectItem
-            title="Twitch"
-            backgroundImg="/../public/assets/projects/twitch.jpg"
-            projectUrl="/property"
+            title="Weather App"
+            backgroundImg="/../public/assets/projects/weather.png"
+            projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss"
           />
         </div>
       </div>
