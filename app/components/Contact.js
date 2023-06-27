@@ -21,6 +21,7 @@ const Contact = () => {
               <img
                 className="rounded-xl hover:scale-105 ease-in duration-300"
                 src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                alt="/"
               />
             </div>
 
@@ -31,7 +32,7 @@ const Contact = () => {
               <p className="py-4">
                 {" "}
                 I am available for freelance or full-time positions. Contact me
-                and let's talk
+                and let&apos;s talk
               </p>
             </div>
             <div>
