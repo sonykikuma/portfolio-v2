@@ -147,31 +147,57 @@ const Navbar = () => {
                 let&apos;s connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400
-             p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                <Link
+                  href="https://github.com/sonykikuma"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <FaLinkedinIn />
-                </div>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400
+             p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <FaLinkedinIn />
+                  </div>
+                </Link>
 
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400
-             p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                <Link
+                  href="https://github.com/sonykikuma"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <FaGithub />
-                </div>
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400
              p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <FaGithub />
+                  </div>
+                </Link>
+
+                <Link
+                  href="https://github.com/sonykikuma"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <AiOutlineMail />
-                </div>
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400
              p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+
+                <Link
+                  href="https://github.com/sonykikuma"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <BsFillPersonLinesFill />
-                </div>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400
+             p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <BsFillPersonLinesFill />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

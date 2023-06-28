@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -22,37 +23,42 @@ const Main = () => {
             technologies.
           </p>
           <div className="flex items-center justify-between mx-w-[330px] m-auto py-4">
-            <div
-              className="rounded-full shadow-lg shadow-gray-400
+            <Link href="https://github.com/sonykikuma">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
-              {" "}
-              <FaLinkedinIn />
-            </div>
-
-            <div
-              className="rounded-full shadow-lg shadow-gray-400
+              >
+                {" "}
+                <FaLinkedinIn />
+              </div>
+            </Link>
+            <Link href="https://github.com/sonykikuma">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
-              {" "}
-              <FaGithub />
-            </div>
-
-            <div
-              className="rounded-full shadow-lg shadow-gray-400
+              >
+                {" "}
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href="https://github.com/sonykikuma">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
-              {" "}
-              <AiOutlineMail />
-            </div>
-
-            <div
-              className="rounded-full shadow-lg shadow-gray-400
+              >
+                {" "}
+                <AiOutlineMail />
+              </div>
+            </Link>
+            <Link href="https://github.com/sonykikuma">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
-              {" "}
-              <BsFillPersonLinesFill />
-            </div>
+              >
+                {" "}
+                <BsFillPersonLinesFill />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
