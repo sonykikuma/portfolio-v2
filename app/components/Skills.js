@@ -15,7 +15,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/html.png"
+                  src="/assets/skills/html.png"
                   width="64"
                   height="64"
                 />
@@ -31,7 +31,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/css.png"
+                  src="/assets/skills/css.png"
                   width="64"
                   height="64"
                 />
@@ -46,7 +46,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/javascript.png"
+                  src="/assets/skills/javascript.png"
                   width="64"
                   height="64"
                 />
@@ -61,7 +61,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/react.png"
+                  src="/assets/skills/react.png"
                   width="64"
                   height="64"
                 />
@@ -76,7 +76,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/tailwind.png"
+                  src="/assets/skills/tailwind.png"
                   width="64"
                   height="64"
                 />
@@ -91,7 +91,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/firebase.png"
+                  src="/assets/skills/firebase.png"
                   width="64"
                   height="64"
                 />
@@ -106,7 +106,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/github1.png"
+                  src="/assets/skills/github1.png"
                   width="64"
                   height="64"
                 />
@@ -121,7 +121,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/nextjs.png"
+                  src="/assets/skills/nextjs.png"
                   width="64"
                   height="64"
                 />
@@ -136,7 +136,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/node.png"
+                  src="/assets/skills/node.png"
                   width="64"
                   height="64"
                 />
@@ -151,7 +151,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/../public/assets/skills/mongo.png"
+                  src="/assets/skills/mongo.png"
                   width="64"
                   height="64"
                 />
