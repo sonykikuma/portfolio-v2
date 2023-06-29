@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,10 +13,6 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
-  };
-
-  const closeNav = () => {
-    // setNav(!true);
   };
 
   useEffect(() => {
@@ -40,7 +37,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/as-logo.png"
+          src="/../public/logo-no-background.png"
           alt="/"
           width="125"
           height="50"
@@ -91,7 +88,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/as-logo.png"
+                  src="/../public/logo-no-background.png"
                   width="87"
                   height="35"
                   alt="/"
