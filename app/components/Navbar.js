@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
+  /*useEffect(() => {
     const handleShadow = () => {
       if (window.scroll >= 90) {
         setShadow(true);
@@ -25,7 +25,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleShadow);
-  }, []);
+  }, []);*/
 
   return (
     <div
