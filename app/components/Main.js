@@ -23,7 +23,7 @@ const Main = () => {
             technologies.
           </p>
           <div className="flex items-center justify-between mx-w-[330px] m-auto py-4">
-            <Link href="https://github.com/sonykikuma">
+            <Link href="https://www.linkedin.com/in/abha-soni-as/">
               <div
                 className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
@@ -41,7 +41,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </Link>
-            <Link href="https://github.com/sonykikuma">
+            <Link href="https://www.linkedin.com/in/abha-soni-as/">
               <div
                 className="rounded-full shadow-lg shadow-gray-400
              p-6 cursor-pointer hover:scale-110 ease-in duration-300"
