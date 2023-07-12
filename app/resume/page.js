@@ -8,7 +8,10 @@ const page = () => {
       <h2 className="text-center pt-4">Resume</h2>
       <p className="text-center pt-7 font-extrabold text-blue-700">ABHA SONI</p>
       <p className="text-center">
-        <Link href="" className="text-blue-600 underline  p-2">
+        <Link
+          href="mailto:abhasonias@mail.com"
+          className="text-blue-600 underline  p-2"
+        >
           abhasonias@gmail.com
         </Link>{" "}
         | +91-8827966488 |{" "}
@@ -23,7 +26,8 @@ const page = () => {
         <ul className="p-2 list-disc">
           <h4>EXECUTIVE PROFILE</h4>
           <li className="pt-4 ">
-            Engineering graduate(Bachelor of Engineering) and Msster's degree
+            Engineering graduate(Bachelor of Engineering) and Msster&apos;s
+            degree
           </li>
           <li className="pt-4 ">
             Solid foundation in Javascript(ES6), HTML5 with strong understanding
