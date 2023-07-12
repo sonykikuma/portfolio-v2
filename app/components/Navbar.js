@@ -183,11 +183,7 @@ const Navbar = () => {
                   </div>
                 </Link>
 
-                <Link
-                  href="https://github.com/sonykikuma"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <Link href="/resume" target="_blank" rel="noreferrer">
                   <div
                     className="rounded-full shadow-lg shadow-gray-400
              p-3 cursor-pointer hover:scale-105 ease-in duration-300"
