@@ -6,6 +6,42 @@ const skills = [
     feat: "Javascript(ES6),CSS3,HTML5,API,NextJS,Tailwindcss,ChatGpt",
   },
   { idname: "Libraries", feat: "JSX,ReactJS, Redux" },
+
+  {
+    idname: " Programming paradigms ",
+    feat: " MVC Design, MicroServices architecture, Object-oriented Javascript",
+  },
+  { idname: "Libraries", feat: "JSX,ReactJS, Redux" },
+
+  {
+    idname: "Peripherals",
+    feat: " RESTful APIs,JSON, XML, Jasmine",
+  },
+  {
+    idname: "Other languages familiar with ",
+    feat: "   NodeJS, HighCharts ",
+  },
+  {
+    idname: "Development IDEs",
+    feat: "   Visual Studio Code, Notepad++  ",
+  },
+  {
+    idname: "  Collaboration tools",
+    feat: " Jira, Confluence, Figma, Trello  ",
+  },
+  {
+    idname: "Source control",
+    feat: "   GitHub, GitLab, SVN ",
+  },
+  {
+    idname: "Operating systems",
+    feat: "  MacOS, Windows 10/8/7",
+  },
+
+  {
+    idname: "Tools",
+    feat: "NPM,Webpack, Jenkins, Chrome Development Tools, Firebug, MS Office",
+  },
 ];
 
 function Techniskills() {
@@ -17,7 +53,20 @@ function Techniskills() {
         <div class="shadow overflow-hidden rounded border-b border-gray-200">
           <table className="min-w-full bg-white">
             <tbody className="text-gray-700">
-              <tr>
+              {skills.map((skill, index) => {
+                return (
+                  <tr key={index}>
+                    <td className="w-1/2 text-left py-3 px-4">
+                      {skill.idname}
+                    </td>
+                    <td className="w-1/2 text-left py-3 px-4 border-l">
+                      {skill.feat}
+                    </td>
+                  </tr>
+                );
+              })}
+
+              {/*       <tr>
                 <td className="w-1/2 text-left py-3 px-4">
                   Language/Technologies
                 </td>
@@ -90,7 +139,7 @@ function Techniskills() {
                   NPM,Webpack, Jenkins, Chrome Development Tools, Firebug, MS
                   Office
                 </td>
-              </tr>
+</tr>*/}
             </tbody>
           </table>
         </div>
@@ -100,69 +149,3 @@ function Techniskills() {
 }
 
 export default Techniskills;
-/*                <td className="w-1/3 text-left py-3 px-4">Lian</td>
-                <td className="w-1/3 text-left py-3 px-4">Smith</td>
-                <td className="text-left py-3 px-4">
-                  <a class="hover:text-blue-500" href="tel:622322662">
-                    622322662
-                  </a>
-                </td>
-                <td className="text-left py-3 px-4">
-                  <a
-                    class="hover:text-blue-500"
-                    href="mailto:jonsmith@mail.com"
-                  >
-                    jonsmith@mail.com
-                  </a>
-                </td>
-              </tr>
-              <tr className="bg-gray-100">
-                <td className="w-1/3 text-left py-3 px-4">Emma</td>
-                <td className="w-1/3 text-left py-3 px-4">Johnson</td>
-                <td className="text-left py-3 px-4">
-                  <a class="hover:text-blue-500" href="tel:622322662">
-                    622322662
-                  </a>
-                </td>
-                <td className="text-left py-3 px-4">
-                  <a
-                    class="hover:text-blue-500"
-                    href="mailto:jonsmith@mail.com"
-                  >
-                    jonsmith@mail.com
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td className="w-1/3 text-left py-3 px-4">Oliver</td>
-                <td className="w-1/3 text-left py-3 px-4">Williams</td>
-                <td className="text-left py-3 px-4">
-                  <a class="hover:text-blue-500" href="tel:622322662">
-                    622322662
-                  </a>
-                </td>
-                <td className="text-left py-3 px-4">
-                  <a
-                    class="hover:text-blue-500"
-                    href="mailto:jonsmith@mail.com"
-                  >
-                    jonsmith@mail.com
-                  </a>
-                </td>
-              </tr>
-              <tr className="bg-gray-100">
-                <td className="w-1/3 text-left py-3 px-4">Isabella</td>
-                <td className="w-1/3 text-left py-3 px-4">Brown</td>
-                <td className="text-left py-3 px-4">
-                  <a class="hover:text-blue-500" href="tel:622322662">
-                    622322662
-                  </a>
-                </td>
-                <td className="text-left py-3 px-4">
-                  <a
-                    class="hover:text-blue-500"
-                    href="mailto:jonsmith@mail.com"
-                  >
-                    jonsmith@mail.com
-                  </a></td>
-*/

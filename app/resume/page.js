@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Techniskills from "../components/Techniskills";
+import Workexp from "../components/Workexp";
+import { AiFillHome } from "react-icons/ai";
 
 const page = () => {
   return (
@@ -49,8 +51,16 @@ const page = () => {
         </ul>
       </div>
       <Techniskills />
-      <p>
-        <Link href="/">Back to home</Link>
+      <Workexp />
+      <p className="pt-8 font-medium  ">
+        <Link
+          href="/"
+          className="flex gap-2 items-center px-4 cursor-pointer hover:animate-bounce text-blue-500"
+        >
+          {" "}
+          <AiFillHome className="hover:animate-spin" />
+          Back to home{" "}
+        </Link>
       </p>
     </>
   );
