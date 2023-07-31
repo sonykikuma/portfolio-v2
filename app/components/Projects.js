@@ -13,23 +13,23 @@ const Projects = () => {
           <ProjectItem
             title="Google Clone"
             backgroundImg="/../public/assets/projects/google.png"
-            projectUrl="https://github.com/sonykikuma/google-clone"
+            projectUrl="https://github.com/sonykikuma/google-clone-sigma-five"
           />
 
           <ProjectItem
             title="Crypto App"
             backgroundImg="/../public/assets/projects/crypto.png"
-            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker"
+            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker-sigma-five"
           />
           <ProjectItem
             title="IMDb"
             backgroundImg="/../public/assets/projects/imdb.png"
-            projectUrl="https://github.com/sonykikuma/IMDb-clone"
+            projectUrl="https://github.com/sonykikuma/IMDb-clone-sigma-five"
           />
           <ProjectItem
             title="Weather App"
             backgroundImg="/../public/assets/projects/weather.png"
-            projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss"
+            projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss-sigma-five"
           />
         </div>
       </div>
@@ -38,3 +38,10 @@ const Projects = () => {
 };
 
 export default Projects;
+//This is what I had with the error:
+{
+  /* <a href=""> <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YulietM&theme=react&line_height=40&hide=css"/> </a>
+
+and adding (sigma-five) so it was solved:
+    <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/? */
+}
