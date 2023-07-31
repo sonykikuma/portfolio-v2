@@ -13,23 +13,23 @@ const Projects = () => {
           <ProjectItem
             title="Google Clone"
             backgroundImg="/../public/assets/projects/google.png"
-            projectUrl="https://github.com/sonykikuma/google-clone-sigma-five"
+            projectUrl="https://github.com/sonykikuma/google-clone"
           />
 
           <ProjectItem
             title="Crypto App"
             backgroundImg="/../public/assets/projects/crypto.png"
-            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker-sigma-five"
+            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker"
           />
           <ProjectItem
             title="IMDb"
             backgroundImg="/../public/assets/projects/imdb.png"
-            projectUrl="https://github.com/sonykikuma/IMDb-clone-sigma-five"
+            projectUrl="https://github.com/sonykikuma/IMDb-clone"
           />
           <ProjectItem
             title="Weather App"
             backgroundImg="/../public/assets/projects/weather.png"
-            projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss-sigma-five"
+            projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss"
           />
         </div>
       </div>
