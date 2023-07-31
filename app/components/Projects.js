@@ -18,17 +18,17 @@ const Projects = () => {
 
           <ProjectItem
             title="Crypto App"
-            backgroundImg="/../public/assets/projects/crypto.png"
+            backgroundImg="/assets/projects/crypto.png"
             projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker"
           />
           <ProjectItem
             title="IMDb"
-            backgroundImg="/../public/assets/projects/imdb.png"
+            backgroundImg="/assets/projects/imdb.png"
             projectUrl="https://github.com/sonykikuma/IMDb-clone"
           />
           <ProjectItem
             title="Weather App"
-            backgroundImg="/../public/assets/projects/weather.png"
+            backgroundImg="/assets/projects/weather.png"
             projectUrl="https://github.com/sonykikuma/weather-next-tailwindcss"
           />
         </div>
