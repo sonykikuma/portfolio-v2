@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Google Clone"
-            backgroundImg="/../public/assets/projects/google.png"
+            backgroundImg="/assets/projects/google.png"
             projectUrl="https://github.com/sonykikuma/google-clone"
           />
 

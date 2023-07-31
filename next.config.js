@@ -3,8 +3,8 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  output:"standalone",
-  reactStrictMode:"false",
+  /*output:"standalone",*/
+  reactStrictMode:true,
   /*experimental:{
     appDir: true,
     typedRoutes: true,
