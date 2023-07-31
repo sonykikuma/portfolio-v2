@@ -3,11 +3,13 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  experimental:{
+  output:"standalone",
+  reactStrictMode:"false",
+  /*experimental:{
     appDir: true,
     typedRoutes: true,
 
-  }
+  }*/
 };
 
 module.exports = nextConfig;
