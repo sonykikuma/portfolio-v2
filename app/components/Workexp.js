@@ -61,6 +61,44 @@ const Workexp = () => {
           rashmeetkaur.com
         </p>
       </div>
+      <div className=" pt-10 sm:mx-20">
+        <div className=" pt-4  ">
+          <div className="font-semibold">Personal Projects</div>
+          <div className=" pt-4  ">
+            <div className="font-bold">Google App</div>
+          </div>
+          <p className="pt-2 ">
+            This web app allows users to search for information on the internet,
+            similar to the Google search engine. It is powered by the google
+            custom search api, which allows it to display results that are
+            exactly the same as those provided by Google.{" "}
+          </p>
+          <p className="pt-2 ">
+            <strong>Technologies used:</strong> JavaScript, React, NextJS,
+            TailwindCSS JSX, HTML5, CSS3, NodeJS, GitHub{" "}
+          </p>
+        </div>
+      </div>
+      <div className=" pt-10 sm:mx-20">
+        <div className=" pt-4  ">
+          <div className="font-semibold">Other Experience</div>
+        </div>
+        <p className="pt-4 ">
+          Worked in education sector for almost 8 years as an Assistant
+          professor for different Engineering colleges in Bhopal and Hyderabad
+          respectively.{" "}
+        </p>
+      </div>
+      <div className=" pt-10 sm:mx-20">
+        <div className=" pt-4  ">
+          <div className="font-semibold">Education</div>
+        </div>
+        <p className="pt-4 ">Master of Technology from UIT, BU-Bhopal, MP </p>
+        <p className="pt-2 ">
+          Bachelor of Engineering (Electronics and Communications) from RGTU,
+          Bhopal{" "}
+        </p>
+      </div>
     </>
   );
 };

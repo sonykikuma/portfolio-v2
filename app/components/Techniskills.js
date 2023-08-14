@@ -3,11 +3,14 @@ import React from "react";
 const skills = [
   {
     idname: "Language/Technologies",
-    feat: "Javascript(ES6),CSS3,HTML5,API,NextJS,Tailwindcss,ChatGpt",
+    feat: "Javascript(ES6),CSS3,HTML5",
   },
-  { idname: "Libraries", feat: "JSX,ReactJS, Redux" },
-
   {
+    idname: "Libraries/Frameworks",
+    feat: "JSX,ReactJS, Redux,NextJS,Tailwindcss",
+  },
+
+  /* {
     idname: " Programming paradigms ",
     feat: " MVC Design, MicroServices architecture, Object-oriented Javascript",
   },
@@ -16,19 +19,19 @@ const skills = [
   {
     idname: "Peripherals",
     feat: " RESTful APIs,JSON, XML, Jasmine",
-  },
+  },*/
   {
-    idname: "Other languages familiar with ",
+    idname: "Other skills familiar with ",
     feat: "   NodeJS, HighCharts ",
   },
   {
     idname: "Development IDEs",
     feat: "   Visual Studio Code, Notepad++  ",
   },
-  {
-    idname: "  Collaboration tools",
-    feat: " Jira, Confluence, Figma, Trello  ",
-  },
+  // {
+  //   idname: "  Collaboration tools",
+  //   feat: " Jira, Confluence, Figma, Trello  ",
+  // },
   {
     idname: "Source control",
     feat: "   GitHub, GitLab, SVN ",
@@ -40,7 +43,7 @@ const skills = [
 
   {
     idname: "Tools",
-    feat: "NPM,Webpack, Jenkins, Chrome Development Tools, Firebug, MS Office",
+    feat: "NPM,Webpack, Jenkins, Chrome Development Tools",
   },
 ];
 

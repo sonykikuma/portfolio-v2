@@ -26,7 +26,7 @@ const page = () => {
       </p>
       <div className=" pt-10 sm:mx-20">
         <ul className="p-2 list-disc">
-          <h4>EXECUTIVE PROFILE</h4>
+          <h4>PROFILE</h4>
           <li className="pt-4 ">
             Engineering graduate(Bachelor of Engineering) and Msster&apos;s
             degree
