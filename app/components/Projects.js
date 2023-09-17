@@ -12,14 +12,14 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Google Clone"
-            backgroundImg="/assets/projects/google.png"
-            projectUrl="https://github.com/sonykikuma/google-clone"
+            backgroundImg="/assets/projects/google1.png"
+            projectUrl="https://github.com/sonykikuma/google-clone-latest"
           />
 
           <ProjectItem
-            title="Crypto App"
-            backgroundImg="/assets/projects/crypto.png"
-            projectUrl="https://github.com/sonykikuma/multipage-crypto-currency-tracker"
+            title="My Blog"
+            backgroundImg="/assets/projects/myblog1.png"
+            projectUrl="https://github.com/sonykikuma/myblog"
           />
           <ProjectItem
             title="IMDb"
