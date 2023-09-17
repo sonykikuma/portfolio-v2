@@ -67,7 +67,8 @@ const Contact = () => {
                 </Link>
 
                 <Link
-                  href="https://www.linkedin.com/in/abha-soni-as/"
+                  href="linkedin.com/in/abha-soni-as
+                  "
                   target="_blank"
                   rel="noreferrer"
                 >
