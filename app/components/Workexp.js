@@ -81,7 +81,7 @@ const Workexp = () => {
         </div>
         <p className="pt-2 ">
           This web app shows post for different technologies. A contact form is
-          also there for any query and it's data will be stored in Mongodb.
+          also there for any query and it&apos;s data will be stored in Mongodb.
         </p>
         <p className="pt-2 ">
           <strong>Technologies used:</strong> JavaScript, React, NextJS,
