@@ -8,7 +8,7 @@ const Workexp = () => {
         <h4 className=" p-2 "> WORK EXPERIENCE</h4>
         <div className="pt-4  flex justify-between">
           <div className="font-semibold"> Frontend Developer at AltStox</div>
-          <div className="font-semibold">April 2021 – April 2023</div>
+          <div className="font-semibold">Oct 2022 – April 2023</div>
         </div>
         <p className="pt-4">
           Project:
@@ -49,19 +49,6 @@ const Workexp = () => {
         </ul>
       </div>
       <div className=" pt-10 sm:mx-20">
-        <div className=" pt-4  flex justify-between">
-          <div className="font-semibold">
-            Frontend Developer Intern at ABC+D Pvt Ltd
-          </div>
-          <div className="font-semibold">Oct 2020 – March 2021</div>
-        </div>
-        <p className="pt-4 ">
-          As a Frontend Intern build static websites such as Aisera
-          Technologies.com, SagaiMatrimonial.com, DoctorRachna.com,
-          rashmeetkaur.com
-        </p>
-      </div>
-      <div className=" pt-10 sm:mx-20">
         <div className=" pt-4  ">
           <div className="font-semibold">Personal Projects</div>
           <div className=" pt-4  ">
@@ -77,7 +64,38 @@ const Workexp = () => {
             <strong>Technologies used:</strong> JavaScript, React, NextJS,
             TailwindCSS JSX, HTML5, CSS3, NodeJS, GitHub{" "}
           </p>
+          <p>
+            Project link:{" "}
+            <Link
+              className="text-blue-500"
+              href="https://google-clone-latest.vercel.app/
+"
+            >
+              https://google-clone-latest.vercel.app/
+            </Link>
+          </p>
         </div>
+
+        <div className=" pt-4  ">
+          <div className="font-bold">My Blog</div>
+        </div>
+        <p className="pt-2 ">
+          This web app shows post for different technologies. A contact form is
+          also there for any query and it's data will be stored in Mongodb.
+        </p>
+        <p className="pt-2 ">
+          <strong>Technologies used:</strong> JavaScript, React, NextJS,
+          TailwindCSS JSX, HTML5, CSS3, NodeJS, GitHub,MongoDB{" "}
+        </p>
+        <p>
+          Project link:{" "}
+          <Link
+            className="text-blue-500"
+            href="https://abha-next-blog.netlify.app"
+          >
+            https://abha-next-blog.netlify.app
+          </Link>
+        </p>
       </div>
       <div className=" pt-10 sm:mx-20">
         <div className=" pt-4  ">
@@ -104,3 +122,19 @@ const Workexp = () => {
 };
 
 export default Workexp;
+
+{
+  /* <div className=" pt-10 sm:mx-20">
+<div className=" pt-4  flex justify-between">
+  <div className="font-semibold">
+    Frontend Developer Intern at ABC+D Pvt Ltd
+  </div>
+  <div className="font-semibold">Oct 2020 – March 2021</div>
+</div>
+<p className="pt-4 ">
+  As a Frontend Intern build static websites such as Aisera
+  Technologies.com, SagaiMatrimonial.com, DoctorRachna.com,
+  rashmeetkaur.com
+</p>
+</div> */
+}
