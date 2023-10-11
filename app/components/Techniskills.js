@@ -34,7 +34,7 @@ const skills = [
   // },
   {
     idname: "Source control",
-    feat: "   GitHub, GitLab, SVN ",
+    feat: "   GitHub, GitLab ",
   },
   {
     idname: "Operating systems",

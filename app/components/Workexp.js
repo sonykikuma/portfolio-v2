@@ -8,7 +8,7 @@ const Workexp = () => {
         <h4 className=" p-2 "> WORK EXPERIENCE</h4>
         <div className="pt-4  flex justify-between">
           <div className="font-semibold"> Frontend Developer at AltStox</div>
-          <div className="font-semibold">Oct 2022 – April 2023</div>
+          <div className="font-semibold">April 2021 – April 2023</div>
         </div>
         <p className="pt-4">
           Project:
@@ -47,6 +47,19 @@ const Workexp = () => {
             implementation
           </li>
         </ul>
+      </div>
+      <div className=" pt-10 sm:mx-20">
+        <div className=" pt-4  flex justify-between">
+          <div className="font-semibold">
+            Frontend Developer Intern at ABC+D Pvt Ltd
+          </div>
+          <div className="font-semibold">Oct 2020 – March 2021</div>
+        </div>
+        <p className="pt-4 ">
+          As a Frontend Intern build static websites such as Aisera
+          Technologies.com, SagaiMatrimonial.com, DoctorRachna.com,
+          rashmeetkaur.com
+        </p>
       </div>
       <div className=" pt-10 sm:mx-20">
         <div className=" pt-4  ">
@@ -124,7 +137,8 @@ const Workexp = () => {
 export default Workexp;
 
 {
-  /* <div className=" pt-10 sm:mx-20">
+  /* 
+  <div className=" pt-10 sm:mx-20">
 <div className=" pt-4  flex justify-between">
   <div className="font-semibold">
     Frontend Developer Intern at ABC+D Pvt Ltd
