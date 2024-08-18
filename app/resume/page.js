@@ -28,16 +28,14 @@ const page = () => {
         <ul className="p-2 list-disc">
           <h4>PROFILE</h4>
           <li className="pt-4 ">
-            Engineering graduate(Bachelor of Engineering) and Msster&apos;s
+            Engineering graduate(Bachelor of Engineering) and Master&apos;s
             degree
           </li>
           <li className="pt-4 ">
             Solid foundation in Javascript(ES6), HTML5 with strong understanding
-            of Javascript frameworks-ReactJS,NextJS
+            of Javascript frameworks-ReactJS, MERN stack, NextJS
           </li>
-          <li className="pt-4 ">
-            Very strong data structure and problem-solving skills
-          </li>
+          <li className="pt-4 ">Very strong problem-solving skills</li>
           <li className="pt-4">
             Deep understanding of closures, prototypical inheritance, DOM
             manipulation, HTTP, cross-browser compatibility
@@ -52,7 +50,7 @@ const page = () => {
       </div>
       <Techniskills />
       <Workexp />
-      <p className="pt-8 font-medium  ">
+      <p className="pt-8 font-medium sm:mx-20">
         <Link
           href="/"
           className="flex gap-2 items-center px-4 cursor-pointer hover:animate-bounce text-blue-500"
