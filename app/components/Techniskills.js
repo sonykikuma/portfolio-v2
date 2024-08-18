@@ -7,7 +7,7 @@ const skills = [
   },
   {
     idname: "Libraries/Frameworks",
-    feat: "JSX,ReactJS, Redux,NextJS,Tailwindcss",
+    feat: "Bootstrap, ReactJS, Redux, NextJS,Tailwindcss",
   },
 
   /* {
@@ -43,7 +43,7 @@ const skills = [
 
   {
     idname: "Tools",
-    feat: "NPM,Webpack, Jenkins, Chrome Development Tools",
+    feat: "NPM, Webpack, Chrome Development Tools",
   },
 ];
 

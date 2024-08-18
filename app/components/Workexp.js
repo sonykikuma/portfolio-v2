@@ -6,9 +6,20 @@ const Workexp = () => {
     <>
       <div className=" pt-10 sm:mx-20">
         <h4 className=" p-2 "> WORK EXPERIENCE</h4>
+
+        <div className=" pt-10 ">
+          <div className=" pt-4  flex justify-between">
+            <div className="font-semibold">
+              Software Developer Intern at neoG
+            </div>
+            <div className="font-semibold">June 2024 </div>
+          </div>
+          <p className="pt-4 "></p>
+        </div>
+
         <div className="pt-4  flex justify-between">
           <div className="font-semibold"> Frontend Developer at AltStox</div>
-          <div className="font-semibold">April 2021 – April 2023</div>
+          <div className="font-semibold">October 2022 – April 2023</div>
         </div>
         <p className="pt-4">
           Project:
@@ -17,8 +28,8 @@ const Workexp = () => {
           </Link>
         </p>
         <p>
-          Technologies used:Javascript, React, ES6,NodeJS, Redux, JSX, HTML5,
-          CSS3, MongoDB, Webpack, GIT, web workers, NextJs,RESTful APIs, AJAX
+          Technologies used:Javascript, React, ES6, NodeJS, Redux, JSX, HTML5,
+          CSS3, MongoDB, Webpack, GIT, NextJs,RESTful APIs
         </p>
       </div>
       {/*responsibilities8*/}
@@ -27,7 +38,7 @@ const Workexp = () => {
           <h3 className="underline">Responsibilities include:</h3>
           <li className="pt-4 ">
             Frontend Developer- User Interface design and development, backend
-            integration, database programming, responsive and adaptive design{" "}
+            integration, responsive design{" "}
           </li>
           <li className="pt-4 ">
             Design and implement the dashboard which is used by end user to note
@@ -39,52 +50,37 @@ const Workexp = () => {
             successful technology solutions
           </li>
           <li className="pt-4">
-            Familiarity with reactive programming, observer pattern, RxJS,
-            asynchronous request handling, partial page updates
-          </li>
-          <li className="pt-4">
             Worked on state management, libraries and frameworks for virtual DOM
             implementation
           </li>
         </ul>
       </div>
       <div className=" pt-10 sm:mx-20">
-        <div className=" pt-4  flex justify-between">
-          <div className="font-semibold">
-            Frontend Developer Intern at ABC+D Pvt Ltd
-          </div>
-          <div className="font-semibold">Oct 2020 – March 2021</div>
-        </div>
-        <p className="pt-4 ">
-          As a Frontend Intern build static websites such as Aisera
-          Technologies.com, SagaiMatrimonial.com, DoctorRachna.com,
-          rashmeetkaur.com
-        </p>
-      </div>
-      <div className=" pt-10 sm:mx-20">
         <div className=" pt-4  ">
           <div className="font-semibold">Personal Projects</div>
           <div className=" pt-4  ">
-            <div className="font-bold">Google App</div>
+            <div className="font-bold">e-Book App</div>
           </div>
           <p className="pt-2 ">
-            This web app allows users to search for information on the internet,
-            similar to the Google search engine. It is powered by the google
-            custom search api, which allows it to display results that are
-            exactly the same as those provided by Google.{" "}
+            This web app allows users to see books of different categories,
+            books can be filtered based on price, rating, genres and can be
+            sorted from high price to low price. A user can add book to cart or
+            Wishlist. Quantity can be increased or increased in cart of a
+            particular. Upon selecting an address user can proceed for checkout.
+            This is a MERN stack app and Redux is used for state management.{" "}
           </p>
           <p className="pt-2 ">
-            <strong>Technologies used:</strong> JavaScript, React, NextJS,
-            TailwindCSS JSX, HTML5, CSS3, NodeJS, GitHub{" "}
+            <strong>Technologies used:</strong>
+            Technologies used: NodeJs, React, Redux, Bootstrap, JSX, Express JS,
+            MongoDB.
           </p>
           <p>
             Project link:{" "}
             <Link
               className="text-blue-500"
-              href="https://google-clone-latest.vercel.app/
-"
+              href="https://majorproject1books.vercel.app"
             >
-              https://google-clone-latest.vercel.app/
+              https://majorproject1books.vercel.app{" "}
             </Link>
           </p>
         </div>

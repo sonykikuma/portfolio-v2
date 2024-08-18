@@ -11,9 +11,9 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Google Clone"
-            backgroundImg="/assets/projects/google1.png"
-            projectUrl="https://github.com/sonykikuma/google-clone-latest"
+            title="e-Book App"
+            backgroundImg="/assets/projects/e-book store.png"
+            projectUrl="https://github.com/sonykikuma/majorproject1books"
           />
 
           <ProjectItem
