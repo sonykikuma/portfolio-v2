@@ -86,23 +86,25 @@ const Workexp = () => {
         </div>
 
         <div className=" pt-4  ">
-          <div className="font-bold">My Blog</div>
+          <div className="font-bold">MeetUp App</div>
         </div>
         <p className="pt-2 ">
-          This web app shows post for different technologies. A contact form is
-          also there for any query and it&apos;s data will be stored in Mongodb.
+          This web app shows online and offline events. Events can be filtered
+          based on online, offline status. Also events can be searched based on
+          the event title and tags. Clicking on a particular event directs to a
+          particular event detail page.
         </p>
         <p className="pt-2 ">
-          <strong>Technologies used:</strong> JavaScript, React, NextJS,
-          TailwindCSS JSX, HTML5, CSS3, NodeJS, GitHub,MongoDB{" "}
+          <strong>Technologies used:</strong> JavaScript, React, Bootstrap,
+          Express, CSS3, NodeJS, GitHub,MongoDB{" "}
         </p>
         <p>
           Project link:{" "}
           <Link
             className="text-blue-500"
-            href="https://abha-next-blog.netlify.app"
+            href="https://meetup-mern-app.vercel.app"
           >
-            https://abha-next-blog.netlify.app
+            https://meetup-mern-app.vercel.app{" "}
           </Link>
         </p>
       </div>

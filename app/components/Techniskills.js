@@ -22,7 +22,7 @@ const skills = [
   },*/
   {
     idname: "Other skills familiar with ",
-    feat: "   NodeJS, HighCharts ",
+    feat: "   NodeJS ",
   },
   {
     idname: "Development IDEs",
