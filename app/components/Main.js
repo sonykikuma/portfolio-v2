@@ -21,8 +21,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a front-end developer specializing in building exceptional
             digital experiences. Currently, I&apos;m focused on building
-            responsive front-end web applications while learning back-end
-            technologies.
+            responsive web applications while exploring new technologies.
           </p>
           <div className="flex items-center justify-between mx-w-[330px] m-auto py-4">
             <Link href="https://www.linkedin.com/in/abha-soni-as/">
