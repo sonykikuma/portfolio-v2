@@ -9,9 +9,7 @@ const Workexp = () => {
 
         <div className=" pt-10 ">
           <div className=" pt-4  flex justify-between">
-            <div className="font-semibold">
-              Software Developer Intern at neoG
-            </div>
+            <div className="font-semibold">Software Developer at neoG</div>
             <div className="font-semibold">June 2024 </div>
           </div>
           <p className="pt-4 "></p>
