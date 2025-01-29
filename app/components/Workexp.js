@@ -74,11 +74,8 @@ const Workexp = () => {
           </p>
           <p>
             Project link:{" "}
-            <Link
-              className="text-blue-500"
-              href="https://majorproject1books.vercel.app"
-            >
-              https://majorproject1books.vercel.app{" "}
+            <Link className="text-blue-500" href=" https://e-books9.vercel.app">
+              https://e-books9.vercel.app{" "}
             </Link>
           </p>
         </div>
