@@ -37,8 +37,8 @@ const page = () => {
           </li>
           <li className="pt-4 ">Very strong problem-solving skills</li>
           <li className="pt-4">
-            Deep understanding of closures, prototypical inheritance, DOM
-            manipulation, HTTP, cross-browser compatibility
+            Deep understanding of closures, DOM manipulation, HTTP,
+            cross-browser compatibility
           </li>
           <li className="pt-4">
             Passionate about learning and adapting to new technologies

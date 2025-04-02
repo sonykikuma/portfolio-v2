@@ -56,6 +56,29 @@ const Workexp = () => {
       <div className=" pt-10 sm:mx-20">
         <div className=" pt-4  ">
           <div className="font-semibold">Personal Projects</div>
+
+          <div className=" pt-4  ">
+            <div className="font-bold">Social Media App</div>
+          </div>
+          <p className="pt-2 ">
+            A social media platform where users can sign up, log in, create and
+            manage their profiles, post updates, like and bookmark posts, and
+            follow other users.
+          </p>
+          <p className="pt-2 ">
+            <strong>Technologies used:</strong> (MERN) React, Bootstrap,
+            Node.js, Express, MongoDB, Redux Toolkit
+          </p>
+          <p>
+            Project link:
+            <Link
+              className="text-blue-500"
+              href="https://socialmedia-frontend-mern.vercel.app"
+            >
+              https://socialmedia-frontend-mern.vercel.app{" "}
+            </Link>
+          </p>
+
           <div className=" pt-4  ">
             <div className="font-bold">e-Book App</div>
           </div>

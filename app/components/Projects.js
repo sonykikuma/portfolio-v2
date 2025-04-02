@@ -11,6 +11,11 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="SocialMedia-App"
+            backgroundImg="/assets/projects/social.png"
+            projectUrl="https://github.com/sonykikuma/socialmedia-frontend"
+          />
+          <ProjectItem
             title="e-Book App"
             backgroundImg="/assets/projects/e-book store.png"
             projectUrl="https://github.com/sonykikuma/majorproject1books"
@@ -21,11 +26,7 @@ const Projects = () => {
             backgroundImg="/assets/projects/meetup.png"
             projectUrl="https://github.com/sonykikuma/meetup"
           />
-          {/* <ProjectItem
-            title="IMDb"
-            backgroundImg="/assets/projects/imdb.png"
-            projectUrl="https://github.com/sonykikuma/IMDb-clone"
-          />
+          {/*
           <ProjectItem
             title="Weather App"
             backgroundImg="/assets/projects/weather.png"

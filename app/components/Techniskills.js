@@ -7,7 +7,7 @@ const skills = [
   },
   {
     idname: "Libraries/Frameworks",
-    feat: "Bootstrap, ReactJS, Redux, NextJS,Tailwindcss",
+    feat: "MERN, ReactJS, Redux, NextJS, Bootstrap, Tailwindcss",
   },
 
   /* {

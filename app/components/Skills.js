@@ -91,13 +91,13 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   alt=""
-                  src="/assets/skills/firebase.png"
+                  src="/assets/skills/Bootstrap.png"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>FIREBASE</h3>
+                <h3>BOOTSTRAP</h3>
               </div>
             </div>
           </div>
