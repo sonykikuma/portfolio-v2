@@ -10,7 +10,7 @@ const Workexp = () => {
         <div className=" pt-10 ">
           <div className=" pt-4  flex justify-between">
             <div className="font-semibold">Software Developer at neoG</div>
-            <div className="font-semibold">June 2024 </div>
+            <div className="font-semibold">June 2024 - December 2025</div>
           </div>
           <p className="pt-4 "></p>
         </div>
@@ -35,17 +35,19 @@ const Workexp = () => {
         <ul className="p-2 list-disc">
           <h3 className="underline">Responsibilities include:</h3>
           <li className="pt-4 ">
-            Frontend Developer- User Interface design and development, backend
-            integration, responsive design{" "}
+            Developed and optimized React-based applications with seamless UI/UX
+            performance{" "}
+          </li>
+          <li className="pt-4">
+            Conducted code reviews, debugging, and performance tuning
           </li>
           <li className="pt-4 ">
-            Design and implement the dashboard which is used by end user to note
-            the changes in the existing system and highlight the steps to be
-            taken
+            Developed and optimized React-based applications with seamless UI/UX
+            performance
           </li>
           <li className="pt-4 ">
-            Gather and understand business requirement. Convert them into
-            successful technology solutions
+            Ensured responsiveness and accessibility in pixel-perfect UI
+            components{" "}
           </li>
           <li className="pt-4">
             Worked on state management, libraries and frameworks for virtual DOM
